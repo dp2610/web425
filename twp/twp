@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trash of the week - Profile-Main</title>
+</head>
+
+<body>
+
+  <h1>Week 100 – Items I Haven’t Valued in a Long Time</h1>
+  <p><em>A week where my trash reminded me who I used to be</em></p>
+
+  <nav>
+    <a href="#preface">Preface</a> |
+    <a href="#overview">Overview</a> |
+    <a href="#gallery">Gallery</a> |
+    <a href="#data">Item Data</a> |
+    <a href="#coda">Coda</a>
+  </nav>
+
+  <hr />
+
+  <h2 id="preface">Preface: Why Haven’t I Already Let These Go?</h2>
+
+  <p>
+    This week, as I went through the things I was finally getting rid of, I realized how many of them
+    had been sitting in the back of my closet or drawers for years. I didn’t keep them because I
+    needed them, but because I wasn’t ready to let go of what they represented. Throwing something
+    away is usually quick and automatic, but this week felt different. Each item I picked up brought
+    back memories I hadn’t thought about in a long time.
+  </p>
+
+  <p>
+    A lot of what I’m letting go of this week comes from earlier parts of my life. These weren’t
+    objects I used recently, but they stayed with me quietly as I grew older. I think part of me knew
+    they still mattered, even if I didn’t look at them often. Writing about them now feels like
+    finally acknowledging that hidden value before moving on.
+  </p>
+
+  <p><a href="#">Back to top</a></p>
+
+  <hr />
+
+  <h2 id="overview">Overview: How These Items Ended Up Here</h2>
+
+  <p>
+    When I started choosing items to throw out this week, I noticed a clear pattern. I kept reaching
+    for things that had been pushed aside but never fully forgotten. These were items that once had a
+    lot of value in my life and slowly lost their everyday use, but not their meaning. I held onto
+    them because I wasn’t ready to throw away the memories attached to them.
+  </p>
+
+  <p>
+    As I looked through everything, the items fell into three stages of my childhood. Each group
+    connects to a different time in my life, and each one reminded me why I kept these things for so
+    long.
+  </p>
+
+  <h3>Everyday things I relied on</h3>
+  <p>
+    The first group includes my glasses, wired headphones, and iPad case, which connect to my later
+    childhood, especially around middle school and the beginning of high school. These were items I
+    used almost every day. The glasses are the pair I wore throughout my school days, and so many
+    memories from that time are connected to them.
+  </p>
+
+  <p>
+    The iPad and its case were especially important because it was my first electronic device from my
+    parents. I used it for schoolwork, watching videos, playing games with friends, and relaxing after
+    long days. The wired headphones go along with that time too, I used them on bus rides, while
+    doing homework, or whenever I needed music to calm myself down during stressful moments. These
+    items are worn out now, but they represent a time when they were part of my daily routine.
+  </p>
+
+  <h3>The fun side of growing up</h3>
+  <p>
+    The second group includes the football, controller, board game set, and hat, which connect to my
+    teen age years of childhood during late elementary school and middle school. This group represents 
+    the fun part of growing up which includes playing outside, hanging out with friends, and doing 
+    activities with family.
+  </p>
+
+  <p>
+    The football reminds me of playing outside after school or just being active with friends. The
+    controller and board game set bring back memories of game nights and spending time indoors with
+    friends and family. Those years of having fun and not overthinking everything really stuck with
+    me, and seeing these items again brought those memories back. The hat ties into this group because
+    I used to wear it when we would go out and it was sunny, especially on trips, park days, or any
+    outdoor activities.
+  </p>
+
+  <h3>The little kid comforts</h3>
+  <p>
+    The final group goes back to my earliest childhood, around the years before and during kindergarten.
+    This includes the stuffed toy and the cup. These were things I used to love as a little kid, and
+    they were part of my everyday life back then.
+  </p>
+
+  <p>
+    The stuffed toy reminds me of being attached to comfort objects when I was young. I used to keep
+    it close, sleep with it, and carry it around because it made me feel safe. The cup was also one of
+    my favorites as a child. I remember my mom telling me I would refuse to drink water unless it was
+    from that specific cup. These items may look worn now, but they remind me of how simple things
+    used to feel so important.
+  </p>
+
+  <p><a href="#">Back to top</a></p>
+
+  <hr />
+
+  <h2 id="gallery">Gallery: Nine Items from This Week</h2>
+
+  <figure>
+    <img src="images/football.jpg" alt="Football" width="700" />
+    <figcaption>Football</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/controller.jpg" alt="Game controller" width="700" />
+    <figcaption>Controller</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/board-game.jpg" alt="Board game set" width="700" />
+    <figcaption>Board game set</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/hat.jpg" alt="Hat" width="700" />
+    <figcaption>Hat</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/glasses.jpg" alt="Glasses" width="700" />
+    <figcaption>Glasses</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/headphones.jpg" alt="Wired headphones" width="700" />
+    <figcaption>Headphones</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/ipad-case.jpg" alt="iPad case" width="700" />
+    <figcaption>iPad case</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/stuffed-toy.jpg" alt="Stuffed toy" width="700" />
+    <figcaption>Stuffed toy</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/cup.jpg" alt="Cup" width="700" />
+    <figcaption>Cup</figcaption>
+  </figure>
+
+  <h3>Order I noticed them this week</h3>
+  <ol>
+    <li>Glasses</li>
+    <li>Headphones</li>
+    <li>iPad case</li>
+    <li>Controller</li>
+    <li>Board game set</li>
+    <li>Football</li>
+    <li>Hat</li>
+    <li>Stuffed toy</li>
+    <li>Cup</li>
+  </ol>
+
+  <p><a href="#">Back to top</a></p>
+
+  <hr />
+
+  <h2 id="data">Item Data: A Table</h2>
+
+  <table border="1" cellpadding="6">
+    <tr>
+      <th>Item</th>
+      <th>Weight</th>
+      <th>Source</th>
+      <th>Location</th>
+      <th>Cost</th>
+      <th>Owned</th>
+      <th>Condition</th>
+      <th>Mode</th>
+    </tr>
+    <tr>
+      <td>Football</td>
+      <td>400g</td>
+      <td>Prize</td>
+      <td>Garage</td>
+      <td>$20</td>
+      <td>13 years</td>
+      <td>Worn but still good for use</td>
+      <td>Donation</td>
+    </tr>
+    <tr>
+      <td>Controller</td>
+      <td>200g</td>
+      <td>GameStop</td>
+      <td>Bedroom</td>
+      <td>$30</td>
+      <td>16 years</td>
+      <td>Broken and old</td>
+      <td>Recycle</td>
+    </tr>
+    <tr>
+      <td>Board game set</td>
+      <td>800g</td>
+      <td>Target</td>
+      <td>Bedroom</td>
+      <td>$25</td>
+      <td>15 years</td>
+      <td>Old but still good and clean</td>
+      <td>Donation</td>
+    </tr>
+    <tr>
+      <td>Hat</td>
+      <td>80g</td>
+      <td>Calvin Klein</td>
+      <td>Bedroom</td>
+      <td>$25</td>
+      <td>10 years</td>
+      <td>Used but in good condition</td>
+      <td>Donation</td>
+    </tr>
+    <tr>
+      <td>Glasses</td>
+      <td>30g</td>
+      <td>Vision Store</td>
+      <td>Bedroom</td>
+      <td>$100</td>
+      <td>7 years</td>
+      <td>Dirty and scratched</td>
+      <td>Recycle</td>
+    </tr>
+    <tr>
+      <td>Headphones</td>
+      <td>Light</td>
+      <td>Apple</td>
+      <td>Bedroom</td>
+      <td>$20</td>
+      <td>10 years</td>
+      <td>Damaged and ripped</td>
+      <td>Recycle</td>
+    </tr>
+    <tr>
+      <td>iPad case</td>
+      <td>200g</td>
+      <td>Target</td>
+      <td>Bedroom</td>
+      <td>$15</td>
+      <td>12 years</td>
+      <td>Used and ripped</td>
+      <td>Recycle</td>
+    </tr>
+    <tr>
+      <td>Stuffed toy</td>
+      <td>Light</td>
+      <td>Gift</td>
+      <td>Bedroom</td>
+      <td>$</td>
+      <td>20 Years</td>
+      <td>Used and dirty but usable</td>
+      <td>Donation</td>
+    </tr>
+    <tr>
+      <td>Cup</td>
+      <td>Light</td>
+      <td>Target</td>
+      <td>Kitchen</td>
+      <td>$3</td>
+      <td>19 years</td>
+      <td>Scratched and dirty</td>
+      <td>Trash</td>
+    </tr>
+  </table>
+
+  <p><a href="#">Back to top</a></p>
+
+  <hr />
+
+  <h2 id="coda">Coda</h2>
+
+  <p>
+    Thank you for coming along with me this week of trash disposal. I kept pushing these items back in
+    my closet because I wasn’t ready to get rid of them, but looking back now, even though they hold
+    memories to me, it’s time for me to move on and make new ones.
+  </p>
+
+  <p>
+    Some of these items are still good and can be useful to someone else, so I hope to donate what I
+    can and that some kid can make good memories like I did with them. Thanks again for reading and 
+    coming along with me on my trash disposal journey.
+  </p>
+
+  <p><a href="#">Back to top</a></p>
+
+</body>
+</html>
