@@ -385,3 +385,22 @@ td {
 		padding: 0.8em 0;
 	}
 }
+
+.court-map-section {
+	margin-bottom: 3em;
+}
+
+.court-map-wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 900px;
+	margin: 1.5em auto 0;
+}
+
+.court-map-image {
+	width: 100%;
+	display: block;
+	border-radius: 18px;
+	border: 6px solid #4c608e;
+	background: #f8fbfc;
+}
