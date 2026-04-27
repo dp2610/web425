@@ -3,14 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Map</title>
+<title>Pickleball Court Map</title>
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
+
+<body id="top">
+
 <div class="wrapper">
 
 <header class="site-header">
-    <a href="index.html" class="site-logo"><img src="images/logo.svg" alt="Pickleball Point logo" class="site-logo-image"></a>
+    <a href="index.html" class="site-logo"><img src="images/logo.svg" alt="Pickleball Players logo" class="site-logo-image"></a>
     <nav class="sitenav">
         <a href="reviews.html">Reviews</a>
         <a href="pictorial.html">Pictorial</a>
@@ -21,20 +23,104 @@
 </header>
 
 <main>
-    <header class="page-header">
-    <h1>Map</h1>
-        <section class="court-map-section">
-        <h2>Interactive Court Guide</h2>
 
-        <div class="court-map-wrapper">
-            <img src="images/map.jpg" alt="Top view pickleball court map" class="court-map-image">
+    <header class="page-header">
+        <h1>Pickleball Court Map</h1>
+        <p class="page-intro">
+            This interactive court map teaches basic pickleball rules and beginner strategy by placing tips directly on the court. Hover over or click each marker to learn about serving, scoring, the kitchen, net play, movement, and court positioning.
+        </p>
+    </header>
+
+    <section class="map-display">
+        <h2>Court Guide</h2>
+
+        <div class="court-map-area">
+            <img src="images/map.jpg" alt="Top view of a pickleball court" class="court-map-base">
+
+            <button class="map-point point-serve" data-title="Serving Line" data-text="Serve from behind the baseline and aim diagonally into the opposite service box. In pickleball, The server’s arm must be moving in an upward arc when the ball is struck and the paddles contact with the ball must not be made above the waist level.">
+                <img src="images/serve.jpg" class="map-icon-img" alt="Serve icon">
+            </button>
+
+            <button class="map-point point-score" data-title="Scoring Board" data-text="In Pickleball, points are only scored by the serving team. In doubles, the score is called as three numbers: your score, the other team’s score, and the server number. Serving for each team starts by the player on the right side of the court. If they win the point, they switch sides and serve again. If they lose the point, the serve goes to the other team. Games are typically, first team to 11 points with at least a 2-point lead, to win the game.">
+                <img src="images/scoreboard.jpg" class="map-icon-img" alt="Scoreboard icon">
+            </button>
+
+            <button class="map-point point-kitchen" data-title="Kitchen Rule" data-text="The kitchen is the non-volley zone. You cannot stand in this area and hit the ball out of the air, so from the start practice to slow down near the net and let the ball bounce when needed. You can step into the kitchen if the ball bounces there or anywhere on the court.">📍</button>
+
+            <button class="map-point point-net" data-title="Net Play" data-text="Near the net, soft shots and dinks are important. Beginners often swing too hard here either hitting the ball in the net or outside the lines on the other side. Controlled and smart placement usually works better than power.">
+                <img src="images/net.jpg" class="map-icon-img" alt="Net icon">
+            </button>
+
+            <button class="map-point point-position" data-title="Beginner Positioning" data-text="Try not to get stuck in the middle of the court, it is the harder area to play in. Move with purpose toward the kitchen line when you see the opportunity or stay back to defend from the baseline to have time and space to react to fast balls.">★</button>
+
+            <button class="map-point point-rally" data-title="Rally Movement" data-text="During rallies, stay balanced and keep your paddle upright and a secured grip ready to react to incoming shots. In doubles, move with your partner so you cover the court together instead of leaving big gaps.">↔</button>
+
+            <button class="map-point point-return" data-title="Return Position" data-text="When returning a serve, stand behind the baseline and focus on getting the ball deep. A deep return gives you time to move forward and prepare for the next shot. Usually, the team nearest the net is advantageous because they can control the pace and hit the ball anywhere on the courts quicker. Pro tip to win a point is to target the opponents legs.  ">↩</button>
+
+            <div id="map-popup" class="map-popup">
+                <h3 id="popup-title">Map Point</h3>
+                <p id="popup-text">Hover over an icon to learn more.</p>
+            </div>
         </div>
     </section>
-    </header>
+
 </main>
+
 <footer class="site-footer">
     <p>&copy; 2026 Pickleball Players. All rights reserved.</p>
 </footer>
+
 </div>
+
+<script>
+const mapPoints = document.querySelectorAll(".map-point");
+const mapPopup = document.getElementById("map-popup");
+const popupTitle = document.getElementById("popup-title");
+const popupText = document.getElementById("popup-text");
+const mapArea = document.querySelector(".court-map-area");
+
+function showPopup(point) {
+    popupTitle.textContent = point.getAttribute("data-title");
+    popupText.textContent = point.getAttribute("data-text");
+
+    const mapRect = mapArea.getBoundingClientRect();
+    const pointRect = point.getBoundingClientRect();
+
+    let leftPosition = pointRect.left - mapRect.left + pointRect.width + 14;
+    let topPosition = pointRect.top - mapRect.top - 10;
+
+    mapPopup.classList.add("show-popup");
+
+    if (leftPosition + mapPopup.offsetWidth > mapRect.width) {
+        leftPosition = pointRect.left - mapRect.left - mapPopup.offsetWidth - 14;
+    }
+
+    if (topPosition + mapPopup.offsetHeight > mapRect.height) {
+        topPosition = mapRect.height - mapPopup.offsetHeight - 18;
+    }
+
+    if (topPosition < 12) {
+        topPosition = 12;
+    }
+
+    mapPopup.style.left = leftPosition + "px";
+    mapPopup.style.top = topPosition + "px";
+}
+
+mapPoints.forEach(function(point) {
+    point.addEventListener("mouseenter", function() {
+        showPopup(point);
+    });
+
+    point.addEventListener("click", function() {
+        showPopup(point);
+    });
+
+    point.addEventListener("mouseleave", function() {
+        mapPopup.classList.remove("show-popup");
+    });
+});
+</script>
+
 </body>
 </html>
