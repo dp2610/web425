@@ -739,27 +739,26 @@ td {
 
 .home-intro {
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 1.5em auto 0;
 	font-size: 21px;
 	line-height: 1.8;
 	color: #43576a;
-	background: #f8fbfc;
-	border-left: 6px solid #debd00;
-	border-radius: 18px;
-	padding: 1.3em 1.5em;
+	text-align: center;
+	padding: 0;
+	background: none;
+	border: none;
 }
-
-/* showcase section */
 
 .home-showcase {
 	border-top: 4px solid #e5ebf0;
 	padding-top: 2em;
+	margin-top: 3em;
 	margin-bottom: 2em;
 }
 
 .home-showcase h2 {
 	text-align: center;
-	margin-bottom: 1.3em;
+	margin-bottom: 1.5em;
 }
 
 .showcase-grid {
@@ -767,8 +766,6 @@ td {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1.6em;
 }
-
-/* clickable cards */
 
 .showcase-card {
 	background: #f8fbfc;
@@ -779,8 +776,8 @@ td {
 	display: block;
 	text-decoration: none;
 	border-bottom: none;
-	transition: transform 0.2s ease, box-shadow 0.2s ease;
 	cursor: pointer;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .showcase-card:hover {
